@@ -1,6 +1,6 @@
 ---
 
-#  **Updated `README.md`**
+#  **`README.md`**
 
 ```
 # Net8Aws – .NET 8 + AWS CI/CD Pipeline (ECR + ECS Fargate)
