@@ -1,0 +1,6 @@
+@Net8Aws_HostAddress = http://localhost:5210
+
+GET {{Net8Aws_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

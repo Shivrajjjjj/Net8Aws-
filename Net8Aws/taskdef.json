@@ -1,0 +1,20 @@
+{
+  "family": "net8aws-task",
+  "cpu": "256",
+  "memory": "512",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [ "FARGATE" ],
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "pocnet8aws",
+      "image": "",
+      "portMappings": [
+        {
+          "containerPort": 80
+        }
+      ],
+      "essential": true
+    }
+  ]
+}
