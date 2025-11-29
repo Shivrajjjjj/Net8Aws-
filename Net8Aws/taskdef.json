@@ -7,7 +7,7 @@
   "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "pocnet8aws",
+      "name": "net8aws",
       "image": "",
       "portMappings": [
         {
@@ -18,3 +18,4 @@
     }
   ]
 }
+
